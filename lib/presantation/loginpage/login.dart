@@ -1,5 +1,5 @@
 import 'package:codeme_test/presantation/loginpage/controller/login_page_controller.dart';
-import 'package:codeme_test/routs/app_routs.dart';
+
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
@@ -93,11 +93,7 @@ class _LoginpageState extends State<Loginpage> {
                             loginpageController.userNameController.text.trim(),
                             loginpageController.passwordController.text.trim())
                         .then((value) async {
-                      // if () {
-                      //   Get.offNamed(
-                      //     AppRoutes.landingpageScreen,
-                      //   );
-                      // }
+                     
                     }); /////////////////////////////////////////////////////////////////////////////////
                   } else {
                     Get.snackbar('Enter Something', 'Data Not enterd');
